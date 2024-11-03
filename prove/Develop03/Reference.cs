@@ -1,9 +1,9 @@
 using System;
 
-// A code template for the category of things known as 
+
 public class Reference
 {
-    // Variables
+    
     public List<Reference> _reference = new List<Reference>();
     private string _fileName = "DataText.txt";
     private string _key;
@@ -37,8 +37,7 @@ public class Reference
     {
         foreach (Reference item in _reference)
         {
-            // var test = item._verseEnd.Equals(0);
-            // Console.WriteLine(test);
+        
             if (item._verseEnd.Equals(0))
             {
                 item.ReferenceOne();

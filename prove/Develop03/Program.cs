@@ -63,7 +63,7 @@ class Program
 Please select one of the following choices:
 1. Display all availble scriptures references
 2. Randomly select scripture to work on
-Q. Quit
+3. Quit
 ===========================================
 What would you like to do?  ");
 
@@ -72,7 +72,7 @@ What would you like to do?  ");
         string userInput = Console.ReadLine();
         userInput.ToLower();
         int userChoice = 0;
-        // This block catches any non integer values that are entered
+
         try
         {
             if (userInput == "q")
